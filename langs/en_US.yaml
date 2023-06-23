@@ -58,139 +58,51 @@ bugs:
     Report a Bug
     ```
     Help me collect the following information. It will be *very helpful* in identifying, reproducing, and fixing bugs:
-        - Device type
-        - Operating System Version
-        - Sky App Type
-        - Version of the Sky app
         - Description of the problem, and how to reproduce it
         - Attachment(s)
         - Additional Information
 
     **Don't start typing your report yet!** For questions like this one that have reaction icons, press one of the reactions to answer! Ready to start?
-  platform: Platform
-  question_platform: |
-    ```css
-    Device Type
-    ```
-    What kind of device do you play Sky on?
-  question_platform_version: |
-    ```css
-    Operating System Version
-    ```
-    What {platform} version do you use? This can be found in device settings. You can ***type*** your answer this time
-  device_info: Device
-  question_device_info: |
-    ```css
-    Device Info
-    ```
-    What model of {platform} device were you using when the bug occurred ({max} characters max)?
-    {device_info_help}
-  device_info_switch: |
-    **To find your Nintendo Switch hardware version:**
-    > 1. Look on the back of your Switch
-    > 2. The version looks like `MOD. XXX-000` with 3 letters and 3 numbers. Some Switch devices have additional numbers in parentheses
-    https://media.discordapp.net/attachments/834518314264821810/840396032457965578/switch_version.jpg
-  device_info_ios: |
-  device_info_android: |
-  device_info_playstation: |
-  question_app_branch: |
-    ```css
-    Sky App Type
-    ```
-    Are you using the `Live` or `Beta` version of Sky?
-    Beta is installed through TestFlight on iOS, through Google Groups on Android, or via invite code on Nintendo Switch.
-    If you are unsure, then choose Live
-  app_version: Sky app version
-  question_app_version: |
-    ```css
-    Sky App Version Number
-    ```
-    What **version** of the Sky app were you using when you experienced the bug?
-    {version_help}
-  app_build: Sky app build
-  question_app_build: |
-    ```css
-    Sky App Build Number
-    ```
-    What **build** of the Sky app were you using when you experienced the bug?
-    See the instructions above. The build number is in parentheses or 6 digits at the end of the version number.
-  version_android: |
-    **To find Sky version and build on Android devices:**
-    > 1. Device settings
-    > 2. Apps
-    > 3. Sky
-    > 4. Scroll down to find: `Version X.X.X (XXXXXX)`
-    > 5. The first 3 digits, `X.X.X` are the version, the 6 digits in parentheses are the build number
-    https://media.discordapp.net/attachments/575818186440572938/623647193143836674/sky_version_build3.jpg
-  version_ios: |
-    **To find Sky version and build on iOS devices:**
-    > 1. Device settings
-    > 2. Scroll down to Sky
-    > 3. Scroll down to find: `Version X.X.X (XXXXXX)`
-    > 4. The first 3 digits, `X.X.X` are the version, the 6 digits in parentheses are the build number
-    https://media.discordapp.net/attachments/575818186440572938/623643882445471764/sky_version_ios2.png
-  version_switch: |
-    **To find the Sky build number for bug reporting:**
-    > 1. Navigate to the Nintendo Switch home screen
-    > 2. Select sky
-    > 3. Press the **+** button on your controller
-    > 4. Version info will be in small print right beneath the game title. Find `Ver. X.X.X.XXXXXX`
-    > 5. The first 3 digits, `X.X.X` are the version, and the last 6 digits are the build number
-    https://media.discordapp.net/attachments/834518314264821810/840007394154774539/unknown.png
-  version_playstation: |
-    **To find the Sky app version for bug reporting:**
-    > 1. Navigate to the main PS menu.
-    > 2. Highlight Sky.
-    > 3. Press the options button on your controller.
-    > 4. App version will show up under “Information”.
-    https://cdn.discordapp.com/attachments/623178459438645248/1050614478825336883/ps_info.png
   title: Title/Topic
   question_title: |
     ```css
     Title/Topic
     ```
     Provide a brief title or topic for your bug ({max} characters max)
-  description: Bug description
+  description: 'Bug description'
   question_actual: |
     ```css
     Describe the bug
     ```
-    Describe the problem you experienced, what looked or worked the wrong way. I'll ask for steps to reproduce the problem next, so don't tell me *how* it happened yet ({max} characters max)
+    Describe the problem you experienced, and/or what looked or worked the wrong way. I'll ask for steps to reproduce the problem in the follow-up question, so don't tell me *how* it happened yet. ({max} characters max)
   steps_to_reproduce: Steps to reproduce
   question_steps: |
     ```css
     How to Reproduce the Bug
     ```
-    How did the bug happen? Tell me the steps you took that lead to the problem ({max} characters max). Example:
+    How did the bug happen? Tell me the steps you took that led you to the bug instance. ({max} characters max). Example:
     ```
     - step 1
     - step 2
     - step 3
     ```
-  expected: Expected outcome
-  question_expected: |
-    ```css
-    Expectation
-    ```
-    When following the steps you gave, what did you expect to happen ({max} characters max)?
   additional_info: Additional information
   question_additional: |
     ```css
     Additional Information
     ```
-    Do you have any other information to add to this report?
+    Do you have any other information or attachments to add to this report? If you were able to grab screenshots or video of the bug, this is where you would share that with me.
   question_additional_info: What other information would you like me to include in your report?
   additional_info_yes: Provide additional information
   question_attachments: |
     ```css
     Attachments
     ```
-    Do you have screenshots, videos, or other documents to add? Video may be attached directly to this report, but size is limited for direct messages. If your video is too large, you can share it in the appropriate screenshot channel or on a site like youtube and add a link to your report instead.
+    Do you have screenshots, videos, or other documents to add? Video may be attached directly to this report, but keep in mind that Discord limits size for direct messages.
   question_ok: This is what your report will look like. Should I **submit** it or **discard** it? You have **{timeout} to review.**
-  send_report: All done! Send this report
-  mistake: Nope, I made a mistake. Throw away this report and start again
-  no_live_android: There is no live version available on Android yet, only beta. Go back to the bug report channel any time to start a new report!
-  dm_unable: '{user}, I was unable to DM you for questions about your bug, Please allow DMs from this server to file bug reports. You can enable this in the privacy settings, found in the server dropdown menu. Once your report is filed, you may disable DMs again if you like.'
+  send_report: All done! Send this report to Wonderstorm.
+  mistake: "Nope, I made a mistake. Throw away this report and let's start again!"
+  dm_unable: 'Hey {user}, I was unable to DM you for questions to submit your bug report to Wonderstorm. Please allow DMs from this server to file bug reports, which you can enable in the privacy settings that are found in the server dropdown menu. Once your report is filed, you may disable DMs again if you like.'
 eden:
   dm_prompt: Did you know you can use the `!edenreset` or `!er` command in my DMs? Shorter cooldown there too.
   reset: |

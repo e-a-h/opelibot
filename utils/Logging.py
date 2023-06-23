@@ -6,7 +6,7 @@ from logging.handlers import TimedRotatingFileHandler
 
 BOT_LOG_CHANNEL = None
 
-LOGGER = logging.getLogger('thatskybot')
+LOGGER = logging.getLogger('opelibot')
 DISCORD_LOGGER = logging.getLogger('discord')
 
 
