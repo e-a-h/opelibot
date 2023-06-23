@@ -24,7 +24,7 @@ permission_config:
   info: Permission Configuration for {server_name}
   permission_set: Permission for {subject} is now {status}
 bugs:
-  bug_info: "**Report a New Bug!**\nBrowse or search this channel to see bug reports. To report a bug, click/tap the {bug_emoji} reaction on this message and the bot will DM you for details. You must have DMs open for this server in order to submit a bug report."
+  bug_info: "# Report a New Bug!\nBrowse or search this channel to see bug reports. To report a bug, click/tap the {bug_emoji} reaction on this message and the bot will DM you for details. You must have DMs open for this server in order to submit a bug report."
   shutdown_message: This bot is going offline, reporting bugs is not possible at this time. Please check back later to report your bug.
   sweep_trash: Sorry to bother you, but you had an in-progress bug report that was idle for too long. I deleted it. If you think you received this message in error, please report me to the proper authorites (a moderator in the Sky server)
   user_reset: Sorry to bother you, but if you had a Sky bug report active, it has been aborted. If you still have a bug to report, please try again later.
@@ -58,9 +58,9 @@ bugs:
     Report a Bug
     ```
     Help me collect the following information. It will be *very helpful* in identifying, reproducing, and fixing bugs:
-        - Description of the problem, and how to reproduce it
-        - Attachment(s)
-        - Additional Information
+    - Description of the problem, and how to reproduce it
+    - Attachment(s)
+    - Additional Information
 
     **Don't start typing your report yet!** For questions like this one that have reaction icons, press one of the reactions to answer! Ready to start?
   title: Title/Topic
